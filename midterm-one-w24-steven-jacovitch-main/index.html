@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Midterm 1 W24</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- TODO: SOMETHING IS MISSING HERE -->
+  <script src="js/problem1.js" defer></script>
+  <script src="js/problem2.js" defer></script>
+  <script src="js/problem3.js" defer></script>
+  <script src="js/problem4.js" defer></script>
+  <script src="js/problem5.js" defer></script>
+  <script src="js/dont_change/after.js" defer></script>
+</head>
+<body>
+<header class="container">
+  <div class="row">
+    <h1 class="col">Midterm 1 W24</h1>
+  </div>
+</header>
+  <main class="container">
+    <div class="row">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">Problem 1<span class="zbox"></span></h2>
+          <p>Update your html to include a JavaScript file.</p>
+          <div class="row">
+            <h2 id="problem-1-message">This page is not loading problem1.js</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">Problem 2<span class="zbox"></span></h2>
+          <p>Get every `id` attribute on the page and output it in a list.</p>
+          <div class="row">
+            <ul id="id-list" class="list-group"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">Problem 3<span class="zbox"></span></h2>
+          <p>The datetime is shown on load. It updates if you click the button. Clicking the button also changes something so there's a blue outline around it.</p>
+          <div class="row">
+            <div class="col col-sm-2">
+              <button id="check-time">Check DateTime</button>
+            </div>
+            <div class="col col-sm-10">
+              <b>The Time Is:</b>
+              <div id="time-output" class="p-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">Problem 4<span class="zbox"></span></h2>
+          <p>This is an alphabetically sorted list of Pokemon names fetched from the PokeAPI</p>
+          <div class="row" id="pokemon-name-list">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">Problem 5<span class="zbox"></span></h2>
+          <p>The values of these three inputs are maintained in localStorage so they stay put when you refresh. <small>For full credit, it must use only one localStorage item for all three inputs.</small></p>
+          <div class="row" id="input-container">
+            <div class="col col-sm-3">
+              <label for="text-1" class="form-label">Field One</label>
+              <input type="text" class="form-control" id="text-1">
+            </div>
+            <div class="col col-sm-3">
+              <label for="text-2" class="form-label">Field Two</label>
+              <input type="text" class="form-control" id="text-2">
+            </div>
+            <div class="col col-sm-3">
+              <label for="text-3" class="form-label">Field Three</label>
+              <input type="text" class="form-control" id="text-3">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <span id="a-hidden-id" hidden></span>
+    <span id="another-hidden-id" hidden></span>
+    <span id="i-am-pals-with-the-hidden-ids" hidden></span>
+    <span id="astronaut-ice-cream " hidden></span>
+
+
+  </main>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

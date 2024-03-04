@@ -1,0 +1,97 @@
+.zbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: tomato;
+  transition: transform .5s;
+}
+
+.zbox.click {
+  transform: scale(1.25);
+}
+
+span.zbox:first-child {
+  margin-left: 24px;
+}
+
+
+#output-time {
+  font-size: 2rem;
+  text-decoration: underline;
+  text-underline-style: dotted;
+}
+
+[data-animal-container] {
+  border: 1px dotted darkslategrey;
+  overflow: hidden;
+}
+[data-animal-container] span {
+  margin: auto;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+[data-dog-image], [data-dog-image] img {
+  height: 300px;
+}
+[data-dog-image] img {
+  margin-inline: auto;
+  animation: 1s linear fadein;
+}
+
+#cat-fact {
+  padding: 12px;
+  border-top: 2px solid black;
+  min-height: 3rem;
+}
+
+[data-pixel-container] {
+  width: 260px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pixel {
+  height: 20px;
+  width: 20px;
+  background-color: lightsteelblue;
+  border: 1px solid black;
+  display: block;
+}
+
+.red-pixel {
+  background-color: #ff4664;
+}
+
+
+.even {
+  background-color: #d5ffd5;
+}
+.odd {
+  background-color: #ffffb4;
+}
+
+.animal {
+  font-weight: bold;
+  margin: 0;
+}
+
+.from-a-button-click {
+  outline: 2px solid blue;
+}
+
+#time-output {
+  font-family: monospace;
+}
